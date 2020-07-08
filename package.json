@@ -19,7 +19,6 @@
     "precommit": "lint-staged",
     "prerelease": "yarn compile && yarn compile:commonjs",
     "release": "node ./scripts/release/publish.js",
-    "postrelease": "yarn benchmarks:release && yarn docs:release",
     "test": "yarn flow && yarn lint:check && yarn jest --runInBand"
   },
   "devDependencies": {
