@@ -53,7 +53,7 @@ if (!skipGit) {
 // Publish public packages
 workspaces.forEach(({ directory, packageJson }) => {
   if (!packageJson.private) {
-    execSync(`cd ${directory} && npm publish`);
+    execSync(`cd ${directory} && yarn publish`);
   }
 });
 
