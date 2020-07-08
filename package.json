@@ -17,10 +17,10 @@
     "lint": "yarn lint:check --fix",
     "lint:check": "eslint packages scripts",
     "precommit": "lint-staged",
-    "prerelease": "yarn test && yarn compile && yarn compile:commonjs",
+    "prerelease": "yarn compile && yarn compile:commonjs",
     "release": "node ./scripts/release/publish.js",
     "postrelease": "yarn benchmarks:release && yarn docs:release",
-    "test": "yarn lint:check && yarn jest --runInBand"
+    "test": "yarn flow && yarn lint:check && yarn jest --runInBand"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
