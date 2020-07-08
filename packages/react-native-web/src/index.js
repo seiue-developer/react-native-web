@@ -76,3 +76,6 @@ export { default as DeviceEventEmitter } from './exports/DeviceEventEmitter';
 // hooks
 export { default as useColorScheme } from './exports/useColorScheme';
 export { default as useWindowDimensions } from './exports/useWindowDimensions';
+
+// seiue patch
+export const ViewPropTypes = { style: null };
