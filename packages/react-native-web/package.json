@@ -2,7 +2,7 @@
   "publishConfig": {
     "registry": "http://npm.seiue.com:4873"
   },
-  "name": "@seiue/react-native-web",
+  "name": "react-native-web",
   "version": "0.14.7",
   "description": "React Native for Web",
   "module": "dist/index.js",
